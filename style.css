@@ -66,9 +66,10 @@ form > button:hover {
 }
 
 .search-result > img {
-  height: 200px;
+  height: 250px;
   width: 100%;
   transition: transform 0.3s ease-in-out;
+  object-fit: cover;
 }
 
 .search-result > img:hover {
@@ -90,7 +91,7 @@ form > button:hover {
 section + button {
   background-color: rgb(84, 84, 221);
   font-size: 18px;
-  display: block;
+  display: none;
   margin: 20px auto;
   color: white;
   padding: 10px;
