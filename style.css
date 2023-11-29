@@ -32,6 +32,7 @@ form > input {
 }
 
 form > button {
+  margin-left: 5px;
   font-size: 18px;
   padding: 10px 10px;
   max-width: 100px;

@@ -39,3 +39,8 @@ formEle.addEventListener("submit", (event) => {
   event.preventDefault();
   searchImages(searchInputEle.value);
 });
+
+showMoreEle.addEventListener("click", (event) => {
+  page += 1;
+  searchImages(searchInputEle.value);
+})
